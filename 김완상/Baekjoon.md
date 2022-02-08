@@ -2,6 +2,117 @@
 
 ## 2주차
 
+### 15654 N과 M (5)
+
+```python
+N, M = map(int, input().split())
+answer = []
+lst = sorted(list(map(int ,input().split())))
+is_visited = [False] * N
+
+def permutation(cnt):
+    if cnt == M:
+        print(*answer)
+        return
+
+    for i in range(N):
+        if is_visited[i]:
+            continue
+        answer.append(lst[i])
+        is_visited[i] = True
+        permutation(cnt+1)
+        answer.pop()
+        is_visited[i] = False
+
+permutation(0)
+
+```
+
+### 15652 N과 M (4)
+
+```python
+N, M = map(int, input().split())
+answer = []
+
+def combinatino_repitition(cnt, start):
+    if cnt == M:
+        print(*answer)
+        return
+
+    for i in range(start, N+1):
+        answer.append(i)
+        combinatino_repitition(cnt+1, i)
+        answer.pop()
+
+combinatino_repitition(0, 1)
+
+```
+
+### 15651 N과 M (3)
+
+```python
+N, M = map(int, input().split())
+answer = []
+
+def permutation_repitition(cnt):
+    if cnt == M:
+        print(*answer)
+        return
+
+    for i in range(1, N+1):
+        answer.append(i)
+        permutation_repitition(cnt+1)
+        answer.pop()
+
+permutation_repitition(0)
+
+```
+
+### 15650 N과 M (2)
+
+```python
+N, M = map(int, input().split())
+answer = []
+
+def combination(cnt, start):
+    if cnt == M:
+        print(*answer)
+        return
+    
+    for i in range(start, N+1):
+        answer.append(i)
+        combination(cnt+1, i+1)
+        answer.pop()
+
+combination(0, 1)
+
+```
+
+### 15649 N과 M (1)
+
+```python
+N, M = map(int, input().split())
+answer = []
+is_visited = [False] * N
+
+def permutation(cnt):
+    if cnt == M:
+        print(*answer)
+        return
+    
+    for i in range(1, N+1):
+        if is_visited[i-1]:
+            continue
+        answer.append(i)
+        is_visited[i-1] = True
+        permutation(cnt+1)
+        answer.pop()
+        is_visited[i-1] = False
+
+permutation(0)
+
+```
+
 ## 1주차
 
 ### 1969 DNA
@@ -37,7 +148,7 @@ for line in dna:
 ### 15721 번대기
 
 ```python
-# 풀이 중
+# 풀이 중 ㅜㅜ 개어렵...
 ```
 
 ### 18312 시각
