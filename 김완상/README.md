@@ -13,4 +13,4 @@
 
 ### 📗[Study with Python](./Baekjoon.md)
 
-### 📘[Homework with JAVA](./Homework.md)
+### 📘[Homework with JAVA](https://lab.ssafy.com/wansang93/hw)

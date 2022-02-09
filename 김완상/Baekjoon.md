@@ -1,8 +1,22 @@
 # 백준
 
+## 3주차
+
+### [1935 후위표기식2](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/.md)
+
+### [10799 쇠막대기](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/10799.md)
+
+### [1966 프린터 큐](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/1966.md)
+
+### [2346 풍선 터뜨리기](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/2346.md)
+
+### [2504 괄호의 값](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/2504.md)
+
+### [2800 괄호 제거](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/2800.md)
+
 ## 2주차
 
-### 15654 N과 M (5)
+### [15654 N과 M (5)](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/15654.md)
 
 ```python
 N, M = map(int, input().split())
@@ -28,7 +42,7 @@ permutation(0)
 
 ```
 
-### 15652 N과 M (4)
+### [15652 N과 M (4)](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/15652.md)
 
 ```python
 N, M = map(int, input().split())
@@ -48,7 +62,7 @@ combinatino_repitition(0, 1)
 
 ```
 
-### 15651 N과 M (3)
+### [15651 N과 M (3)](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/15651.md)
 
 ```python
 N, M = map(int, input().split())
@@ -68,7 +82,7 @@ permutation_repitition(0)
 
 ```
 
-### 15650 N과 M (2)
+### [15650 N과 M (2)](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/15650.md)
 
 ```python
 N, M = map(int, input().split())
@@ -88,7 +102,7 @@ combination(0, 1)
 
 ```
 
-### 15649 N과 M (1)
+### [15649 N과 M (1)](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/15649.md)
 
 ```python
 N, M = map(int, input().split())
@@ -115,7 +129,7 @@ permutation(0)
 
 ## 1주차
 
-### 1969 DNA
+### [1969 DNA](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/1969.md)
 
 ```python
 # 내 풀이
@@ -145,13 +159,13 @@ for line in dna:
     c += len(i) - line.count(k)
 ```
 
-### 15721 번대기
+### [15721 번대기](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/15721.md)
 
 ```python
 # 풀이 중 ㅜㅜ 개어렵...
 ```
 
-### 18312 시각
+### [18312 시각](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/18312.md)
 
 ```python
 N, K = input().split()
@@ -164,7 +178,7 @@ for h in range(int(N)+1):
 print(cnt)
 ```
 
-### 19532 수학은 비대면강의입니다
+### [19532 수학은 비대면강의입니다](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/19532.md)
 
 ```python
 # 역행렬 구해서 해 구하기
@@ -180,7 +194,7 @@ for x in range(-999, 1000):
             print(x, y)
 ```
 
-### 2231 분해합
+### [2231 분해합](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/2231.md)
 
 ```python
 N = int(input())
@@ -195,7 +209,7 @@ else:
     print(0)
 ```
 
-### 2798 블랙잭
+### [2798 블랙잭](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/2798.md)
 
 ```python
 # 내 풀이
@@ -225,7 +239,7 @@ for card in combinations(cards, 3):
 print(max_num)
 ```
 
-### 22864 피로도
+### [22864 피로도](https://github.com/wansang93/Algorithm/blob/master/BAEKJOON/problems/22864.md)
 
 ```python
 # 내 풀이
