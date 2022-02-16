@@ -15,9 +15,9 @@ def nm():
     if len(s) == m:
         print(' '.join(map(str, s)))
         return
-    for i in range(n):
-        if arr[i] in s: continue
-        s.append(arr[i])
+    for i in arr:
+        if i in s: continue
+        s.append(i)
         nm()
         s.pop()
 
